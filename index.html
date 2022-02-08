@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <title>MicroGreens Crud Project</title>
+    <link type="text/css" rel="stylesheet" href="style.css"
+</head>
+
+<body>
+    <p class="mg-crud-name">MicroGreens Crud Project</p>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    
+                    <div>
+                        <label for="microGreensSku#">MG Sku#</label>
+                        <input type="text" name="mgSku" id="mgSku">
+                    </div>
+                    <div>
+                        <label for="microGreensName">MG Name</label>
+                        <input type="text" name="mgName" id="mgName">
+                    </div>
+                    <div>
+                        <label for="qtyOrdered">MG Quantity</label>
+                        <input type="number" name="mgQty" id="mgQty">
+                    </div>
+                    <div>
+                        <label for="mgPerPrice">MG Price</label>
+                        <input type="number" name="mgPerPrice" id="mgPerPrice">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>               
+                    <img class="mg-image" src="images/microgreens2.jpg">
+                    <table class="list" id="storeList">
+                      
+                        <thead>
+                            <tr>
+                                <th>MG Sku#</th>
+                                <th>MG Name</th>
+                                <th>MG Qty</th>
+                                <th>MG Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+/* Crud Project Name */
+.mg-crud-name {
+  font-family: 'Gill Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+  color: #5f9b3d;
+}
+
+/* Table left & right side widths  */
+table{
+    width: 90%;
+    margin: 30px auto;
+    background: #83a86c;
+    border-radius: 15px;
+    border-color: #3c582a;
+    border-style: solid;
+}
+
+/* Table input boxes */
+table.list{
+    text-align: center;
+    width: 100%;
+    padding: 4px;
+}
+
+/* Inner Table input boxes */
+td{
+    border: 1px solid rgb(235, 231, 231);
+    text-align: left;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+
+/* Table "even" boxes (every other box) */
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(207, 198, 198);
+    border-radius: 15px;
+}
+
+/* Table "odd" input boxes */
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 15px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(163, 156, 156);
+    border-radius: 4px;
+    font-weight: 600;
+    
+}
+
+/* Table Submit buttons */
+input[type="submit"],input[type="reset"]{
+    background: rgb(245, 243, 243);
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Submit Buttons Hover */
+input[type="submit"]:hover{
+    background: #5f9b3d;
+}
+/* Reset Buttons Hover */
+input[type="reset"]:hover{
+    background: #5f9b3d;
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+/* Buttons Hover */
+button:hover{
+    background:#3c582a ;
+}
+
+/* Image */
+.mg-image {
+ width: 200px;
+ height: 130px;
+
+}
